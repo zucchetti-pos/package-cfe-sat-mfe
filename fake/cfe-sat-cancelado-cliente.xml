@@ -1,0 +1,59 @@
+<CFeCanc>
+  <infCFe chCanc="CFe35210814200166000166599000238700000452268252" versao="0.07" Id="CFe35210814200166000166599000238700000462877898">
+    <dEmi>20210812</dEmi>
+    <hEmi>140400</hEmi>
+    <ide>
+      <cUF>35</cUF>
+      <cNF>287789</cNF>
+      <mod>59</mod>
+      <nserieSAT>900023870</nserieSAT>
+      <nCFe>000046</nCFe>
+      <dEmi>20210812</dEmi>
+      <hEmi>140409</hEmi>
+      <cDV>8</cDV>
+      <CNPJ>16716114000172</CNPJ>
+      <signAC>SGR-SAT SISTEMA DE GESTAO E RETAGUARDA DO SAT</signAC>
+      <assinaturaQRCODE>lypAbD8AiQAFq+sak+XMpbL4YklLsvpedp9C0dfH7bn/X5qXHsm8KgraeoJTxS77M6dZ1eik6mbyH66MldRIHFB+nAFZ6skGWDjuhE53x2H3kcsxEzeyYAYy/3J5feMM8fbSSxXxCL6kcO39vT0pXWTs9Q3YlBFV7JhtCjIcAXJfd7cHqZiQYIzgsk66jFLIxTy9kbHCbNaAw8hGTHpiyuuISUUV0dCs2Abmks/UwClid53Bd/9tIVSRIfhcTbIUzoQ/qBNMf5u/j+72iRM2JRDa1+I0VPtpSr9R48bGSoPrud0NuKD6U8NtGwGlHHdLl7Y/gSfBo1Nki6fU+W91bA==</assinaturaQRCODE>
+      <numeroCaixa>002</numeroCaixa>
+    </ide>
+    <emit>
+      <CNPJ>14200166000166</CNPJ>
+      <xNome>ELGIN INDUSTRIAL DA AMAZONIA LTDA</xNome>
+      <enderEmit>
+        <xLgr>AVENIDA ABIURANA</xLgr>
+        <nro>579</nro>
+        <xBairro>DIST INDUSTRIAL</xBairro>
+        <xMun>MANAUS</xMun>
+        <CEP>69075010</CEP>
+      </enderEmit>
+      <IE>111111111111</IE>
+      <IM>111111111111</IM>
+    </emit>
+    <dest>
+      <CPF>10123485983</CPF>
+    </dest>
+    <total>
+      <vCFe>2.00</vCFe>
+    </total>
+  </infCFe>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+      <Reference URI="#CFe35210814200166000166599000238700000462877898">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></Transform>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+        <DigestValue>4aohnfthtBQ1+iA8cZzcLdnGTl8eivTb+N4mAw3G5gw=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>kGGQObVfTys4BJxuUe/1qOP/BOIe1k8OZmaKR1ICBk+X2lmUfLB1e6KG6NV0u479lK5Zll0VQs/SDSQIhFIIWh+WG2OmjLvacI8tbo4EOAxPa9E/Jhl9tKzCrX5YdfIM16shvlkv0mCsowxyiz+bil498W3EgKJhlynDjX8xz6aa851t/eDqCH6wXQ1udeZHC5aB8tQ5Tyzul87FIX6S+pabVGTKge95ITd+XQ5jMPCWVgVwfMZN8fkIJiB33d8p4/xK+M9U2lg4zarQm+4sUYtBS2nPgYjE6sFLs1YhBBH4BGOorXlzVGWG4zotWvZsGSKoSfGxiyb2b8cuDzFygw==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>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</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</CFeCanc>

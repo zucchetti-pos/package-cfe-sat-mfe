@@ -1,0 +1,67 @@
+{
+  "name": "zucchetti-pos/package-cfe-sat-mfe",
+  "type": "library",
+  "description": "API para geração do XML CFe-SAT",
+  "version": "1.0.0",
+  "keywords": [
+    "cfe",
+    "sat",
+    "mfe",
+    "sefazsp",
+    "sefazce",
+    "sefaz",
+    "nfephp"
+  ],
+  "homepage": "https://github.com/zucchetti-pos/package-cfe-sat-mfe",
+  "license": [
+    "LGPL-3.0-or-later",
+    "GPL-3.0-or-later",
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Gustavo Lidani",
+      "email": "gustavo@lidani.dev",
+      "homepage": "https://lidani.dev",
+      "role": "Developer"
+    },
+    {
+      "name": "Zucchetti Brasil",
+      "homepage": "https://zucchetti.com.br",
+      "role": "Company"
+    }
+  ],
+  "require": {
+    "php": ">= 7.4",
+    "nfephp-org/sped-common": "^5.1.0",
+    "nfephp-org/sped-gtin": "^1.1.0",
+    "nfephp-org/sped-da": "^1.1.0",
+    "justinrainbow/json-schema": "^5.2"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.4",
+    "phpunit/phpunit": "^9.3",
+    "scrutinizer/ocular": "^1.8",
+    "phpstan/phpstan": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "NFePHP\\CfeSatMfe\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "NFePHP\\CfeSatMfe\\Tests\\": "tests/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit -c phpunit.xml.dist",
+    "phpcbf": "vendor/bin/phpcbf --standard=psr2 src",
+    "phpcs": "vendor/bin/phpcs --standard=psr2 src",
+    "phpstan": "vendor/bin/phpstan analyse src/ --level 1"
+  },
+  "minimum-stability": "stable"
+}
