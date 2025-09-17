@@ -42,7 +42,7 @@
     "nfephp-org/sped-common": "^5.1.0",
     "nfephp-org/sped-gtin": "^1.1.0",
     "justinrainbow/json-schema": "^5.2",
-    "zucchetti-pos/sped-da": "dev-master"
+    "zucchetti-pos/sped-da": "dev-WEB-5386"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4",
